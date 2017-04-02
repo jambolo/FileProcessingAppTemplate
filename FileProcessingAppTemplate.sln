@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileProcessingAppTemplate", "FileProcessingAppTemplate.vcproj", "{4EA792EF-4BDB-40F1-A64D-97B809EC3661}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Thread", "..\Libraries\Thread\Thread.vcproj", "{F914CA7D-7576-4C6B-B6A9-E45EF47FD92B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AfxMisc", "..\Libraries\Misc\AfxMisc.vcproj", "{758468A4-920A-4BF9-936A-B41F0D3CD31D}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 4
+		SccProjectUniqueName0 = FileProcessingAppTemplate.vcproj
+		SccLocalPath0 = .
+		CanCheckoutShared = true
+		SccProjectUniqueName1 = ..\\Libraries\\Thread\\Thread.vcproj
+		SccLocalPath1 = ..\\Libraries\\Thread
+		CanCheckoutShared = true
+		SccProjectName2 = Perforce\u0020Project
+		SccLocalPath2 = .
+		SccProvider2 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SolutionUniqueID = {88DF3468-5B6A-4608-A745-5553204ABE40}
+		SccProjectUniqueName3 = ..\\Libraries\\Misc\\AfxMisc.vcproj
+		SccLocalPath3 = ..\\Libraries\\Misc
+		CanCheckoutShared = true
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{4EA792EF-4BDB-40F1-A64D-97B809EC3661}.0 = {F914CA7D-7576-4C6B-B6A9-E45EF47FD92B}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{4EA792EF-4BDB-40F1-A64D-97B809EC3661}.Debug.ActiveCfg = Debug|Win32
+		{4EA792EF-4BDB-40F1-A64D-97B809EC3661}.Debug.Build.0 = Debug|Win32
+		{4EA792EF-4BDB-40F1-A64D-97B809EC3661}.Release.ActiveCfg = Release|Win32
+		{4EA792EF-4BDB-40F1-A64D-97B809EC3661}.Release.Build.0 = Release|Win32
+		{F914CA7D-7576-4C6B-B6A9-E45EF47FD92B}.Debug.ActiveCfg = Debug|Win32
+		{F914CA7D-7576-4C6B-B6A9-E45EF47FD92B}.Debug.Build.0 = Debug|Win32
+		{F914CA7D-7576-4C6B-B6A9-E45EF47FD92B}.Release.ActiveCfg = Release|Win32
+		{F914CA7D-7576-4C6B-B6A9-E45EF47FD92B}.Release.Build.0 = Release|Win32
+		{758468A4-920A-4BF9-936A-B41F0D3CD31D}.Debug.ActiveCfg = Debug|Win32
+		{758468A4-920A-4BF9-936A-B41F0D3CD31D}.Debug.Build.0 = Debug|Win32
+		{758468A4-920A-4BF9-936A-B41F0D3CD31D}.Release.ActiveCfg = Release|Win32
+		{758468A4-920A-4BF9-936A-B41F0D3CD31D}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
